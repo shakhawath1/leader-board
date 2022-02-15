@@ -75,10 +75,13 @@ nav{
 .player{
     display: flex;
     align-items: center;
+    margin-right: 8px;
+    border-radius: 6px;
 }
 .player img{
     width: 56px;
     height: 56px;
+    padding-left: 6px;
 }
 .player-name{
     margin-left: 16px;
@@ -154,4 +157,11 @@ nav{
     color: #FF4A60;
     padding: 0 3px;
     border-radius: 20px;
+}
+
+
+.extra-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }

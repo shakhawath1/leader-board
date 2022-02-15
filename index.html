@@ -36,8 +36,8 @@
         <!-- top players and top blogs -->
         <section class="container">
             <div class="top-players">
-                <h2 class="section-title">Top Players</h2>
-                <div class="players">
+                <h2 id="players-section-title" class="section-title">Top Players</h2>
+                <div id="players" class="players">
                     <div class="player">
                         <img src="images/players/player-1.png" alt="">
                         <h3 class="player-name">Plaayer-1</h3>
@@ -66,7 +66,7 @@
             </div>
             <hr>
             <div class="top-blogs">
-                <h2 class="section-title">Top Blogs</h2>
+                <h2 id="blogs-section-title" class="section-title">Top Blogs</h2>
             </div>
             <div class="blogs">
                 <article class="blog">
@@ -181,8 +181,24 @@
                 </div>
             </div>
         </section>
+        <section class="extra-section container">
+            <div>
+                <ol id="players-list">
+                    <li>Player 1</li>
+                    <li>Player 2</li>
+                    <li>Player 3</li>
+                </ol>
+                <button id="add-player">Add Player</button>
+            </div>
+            <div>
+                <input id="input-num" type="number" value="0">
+                <button id="increas-btn">Click Me</button>
+            </div>
+        </section>
     </main>
     <!-- main end -->
+    <!-- costum js -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>
